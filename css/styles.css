@@ -1,0 +1,229 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#000000;
+}
+p{
+  line-height:2;
+  font-family: sans-serif;
+  font-size:1em;
+
+
+}
+
+h1{
+  font-size: 5.625em;
+  line-height: 1em;
+  color:#66bfbf;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color:#66bfbf;
+  font-weight: bold;
+  text-align: center;
+}
+h3{
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
+  color:#11999e;
+  font-weight: normal;
+  text-align: center;
+}
+h4{
+  font-size: 1em;
+  font-family: sans-serif;
+  color:#11999e;
+  font-weight: normal;
+  text-align: left;
+}
+hr{
+  border: dotted;
+  border-bottom: none;
+  margin: 100px auto 100px;
+
+
+border-width:5px;
+border-color: #EAF6F6;
+width: 10%;
+
+
+}
+a {
+  color: #ffc0cb;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  opacity: 1;
+  visibility: visible;
+  display: inline
+}
+
+.footer-link{
+  color: #eaf6f6;
+}
+.topcontainer{
+  background-color: #bce6eb;
+  position:relative;
+  padding-top: 100px;
+}
+.middle-container{
+position:relative;
+
+}
+.bottom-container{
+background-color: #66bfbf;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 20px;
+}
+.top-cloud {
+  position: absolute;
+  right: 800px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+
+}
+.profile{
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 50px;
+  line-height: 1.5;
+}
+
+.skill-row{
+  font-family: sans-serif;
+  width:50%;
+  text-align: left;
+  line-height: 1;
+  position:relative;
+  margin-left: 30em;
+
+}
+
+
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+  /* Example styles for .project class */
+  background-color: #f5f5f5; /* Light background for visibility */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #333333; /* Darker text color for visibility */
+  font-size: 1.2em; /* Slightly larger font size */
+  /* Ensure text is always visible */
+  opacity: 1;
+  visibility: visible;
+}
+
+.project a {
+  color: #11999e; /* Styling links within .project */
+  text-decoration: underline; /* Makes it clear they are clickable */
+}
+
+/* Hover effect for links within .project */
+.project a:hover {
+  color: #66bfbf;
+}
+
+
+.profile-image{
+  width: 20%;
+  margin-right: 40px;
+  margin-left: 40px;
+
+}
+
+.profile table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.skills-imag{
+  width:40%;
+  margin-right: 30px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.certifications img {
+  display: block; /* Makes the image a block-level element */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project h4 {
+  text-align: center;
+}
+
+.project img {
+  display: block; /* Makes the image a block-level element */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.contact-me{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding:20px;
+}
+.bottom-container {
+  text-align: center;
+}
+
+.links-and-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the spacing between links and the image */
+}
+
+.bottom-container {
+  text-align: center;
+}
+
+.bottom-container .links-container, 
+.bottom-container .copyright-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the spacing as needed */
+}
+
+.bottom-container .footer-link {
+  margin: 5px; /* Adjust spacing around links */
+}
+
+.bottom-container .footer-image {
+  height: auto;
+  width: auto;
+  max-height: 300px; /* Adjust this value as needed */
+  display: block;
+  margin: 10px auto; /* Center the image and add margin */
+}
